@@ -3,7 +3,7 @@ package pkPoliEstudiante;
 import java.util.Arrays;
 
 public class Estudiante{
-    private String nombre;
+    public String nombre;
     public int codigo;
     private String[][] horario;
     public Estudiante(String nombre,int codigo,String[][] horario){
